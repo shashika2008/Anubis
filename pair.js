@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `༒⚠ d͟o͟n͟'t͟ s͟h͟a͟r͟e͟ t͟h͟i͟s͟ c͟o͟d͟e͟ t͟o͟ a͟n͟o͟t͟h͟e͟r͟ o͟n͟e͟.* ⚠༒`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               video: {
-                url: "https://github.com/shashika2008/Anubis/blob/main/snaptik_7502924099870559506.mp4",
+                url: "https://github.com/shashika2008/Anubis/blob/main/lv_0_20250724170238.mp4",
               },
               caption: sid,
             });
