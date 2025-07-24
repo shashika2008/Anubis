@@ -145,12 +145,12 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">Link Robin with phone number</h3>
+            <h3 class="centered-text">Link ᗷᒪᗩᑕK ᗯOᒪᖴ with phone number</h3>
             <br>
-            <h6>🔢 Enter your number with country code. ROBIN WEB PAIR</h6>
+            <h6>༒ƛƊƊ ƳƠƲƦ ƤӇƠƝЄ ƝƲMƁЄƦ  ʷʰⁱᵗʰ ᶜᵒᵘⁿʳʸ ᶜᵒᵈᵉ. ᗷᒪᗩᑕK ᗯOᒪᖴ WEB PAIR</h6>
             <div class="input-container">
-              <input placeholder="+94704xxxxxx" type="number" id="number" placeholder="❗ Enter your phone number with country code, ROBIN WEB PAIR" name="">
-              <button id="submit">Submit ROBIN</button>
+              <input placeholder="+94704xxxxxx" type="number" id="number" placeholder="❗ ƛƊƊ ƳƠƲƦ ƤӇƠƝЄ ƝƲMƁЄƦ  ʷʰⁱᵗʰ ᶜᵒᵘⁿʳʸ ᶜᵒᵈᵉ, ᗷᒪᗩᑕK ᗯOᒪᖴ═pair" name="">
+              <button id="submit">𝔠𝔩𝔦𝔠𝔨</button>
             </div>
             <!-- Add the loading spinner -->
             <div id="loading-spinner">
@@ -183,7 +183,7 @@
       obj.size = "5";
       setTimeout(() => {
         obj.innerText = text;
-        obj.style = "color:white;font-weight-bold";
+        obj.style = "color:black;font-weight-bold";
         obj.size = "5";
       }, 500);
     }
@@ -191,9 +191,9 @@
     b.addEventListener("click", async (e) => {
       e.preventDefault();
       if (!c.value) {
-        a.innerHTML = '<a style="color:black;font-weight:bold">❗Enter your whatsapp number with country code.</a><br><br>';
+        a.innerHTML = '<a style="color:black;font-weight:bold">❗ƛƊƊ ƳƠƲƦ ƤӇƠƝЄ ƝƲMƁЄƦ  ʷʰⁱᵗʰ ᶜᵒᵘⁿʳʸ ᶜᵒᵈᵉ.</a><br><br>';
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
-        a.innerHTML = '<a style="color:black;font-weight:bold">❗Invalid number format. Please try again.</a><br><br>';
+        a.innerHTML = '<a style="color:red;font-weight:bold">❗Invalid number format. Enter correct phone number with your country code.</a><br><br>';
       } else {
         const bc = c.value.replace(/[^0-9]/g, "");
         let bb = "";
