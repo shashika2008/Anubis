@@ -81,8 +81,8 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ᗷᒪᗩᑕK ᗯOᒪᖴ [The powerful WA BOT]made by shashika*\n\n👉 ${string_session} 👈\n\n*╔═════════𖣔 𒋲 𖣔═════════╗, This is the your ᗷᒪᗩᑕK ᗯOᒪᖴ Session ID, ╚═════════𖣔 𒋲 𖣔═════════╝, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
-            const mg = `༒⚠ *Avoid sending the code to anyone else.* ⚠༒`;
+            const sid = `*✖━━━━━━⊹⊱✪⊰⊹━━━━━━✖,ᗷᒪᗩᑕK ᗯOᒪᖴ,✖━━━━━━⊹⊱✪⊰⊹━━━━━━✖ ,[The powerful WA BOT]made by ˢʰᵃˢʰⁱᵏᵃ⚠*\n\n👉 ${string_session} 👈\n\n*╔════════════𖣔 𒋲 𖣔════════════╗, This is the your ᗷᒪᗩᑕK ᗯOᒪᖴ Session ID, ╚════════════𖣔 𒋲 𖣔════════════╝, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const mg = `༒⚠ d͟o͟n͟'t͟ s͟h͟a͟r͟e͟ t͟h͟i͟s͟ c͟o͟d͟e͟ t͟o͟ a͟n͟o͟t͟h͟e͟r͟ o͟n͟e͟.* ⚠༒`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
